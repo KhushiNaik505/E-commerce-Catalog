@@ -26,4 +26,32 @@ const products=[
     price:2999,
     image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ67XTspkiaMxABOt-L34HD42rB7mxK6Wf9LYl8TfndzyBfh9VsrSu7R9G5&s=10",
     description:"A timeless classic inspired by Hans J Wegner's iconic armchair."
+},
+{
+    id:5,
+    name:"Table",
+    price:1200,
+    image:"https://www.ikea.com/in/en/images/products/norrvaga-coffee-table-brown-mango-wood__1527111_pe1014097_s5.jpg?f=xl",
+    description:"IKEA LACK Coffee Table."
+},
+{
+    id:6,
+    name:"Sofa",
+    price:18850,
+    image:"https://www.ikea.com/in/en/images/products/jaettebo-3-seat-modular-sofa-samsala-dark-yellow-green__1109636_pe870121_s5.jpg?f=xl",
+    description:"3-seat modular sofa, Samsala dark yellow-green."
+},
+{
+    id:7,
+    name:"Wardrobe",
+    price:14990,
+    image:"https://www.ikea.com/in/en/images/products/rakkestad-wardrobe-with-3-doors-black-brown__0823987_pe776018_s5.jpg?f=xl",
+    description:"Simple and smart! When all you need is a wardrobe with all the basic functions. If storage space is still not enough, why not add another wardrobe from the RAKKESTAD series?"
+},
+{
+    id:8,
+    name:"Bed",
+    price:6999,
+    image:"https://www.ikea.com/in/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259336_pe926649_s5.jpg?f=xl",
+    description:"SLATTUM bed frame has soft upholstery and a padded headboard that complete the stylish and simple lines. Easy to like and convenient to bring home thanks to the whole frame coming in a single package."
 }];

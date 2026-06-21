@@ -1,0 +1,16 @@
+{
+  "name": "product-catalog",
+  "version": "1.0.0",
+  "description": "E-commerce product catalog capstone project",
+  "scripts": {
+    "build": "npm run build:js && npm run build:css && npm run build:html",
+    "build:js": "terser js/data.js -o dist/js/data.min.js -c -m && terser js/cart.js -o dist/js/cart.min.js -c -m && terser js/router.js -o dist/js/router.min.js -c -m && terser js/app.js -o dist/js/app.min.js -c -m",
+    "build:css": "cleancss -o dist/style.min.css style.css",
+    "build:html": "html-minifier-terser --collapse-whitespace --remove-comments index.html -o dist/index.html"
+  },
+  "devDependencies": {
+    "terser": "^5.31.0",
+    "clean-css-cli": "^5.6.3",
+    "html-minifier-terser": "^7.2.0"
+  }
+}
